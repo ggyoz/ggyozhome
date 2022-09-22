@@ -21,4 +21,3 @@ jobs:
             sudo git pull
             sudo yarn
             pm2 reload all
-#            sudo yarn build
