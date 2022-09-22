@@ -1,9 +1,36 @@
 <template>
-  <div>배포 테스트2</div>
+  <div>
+    <h1>Toast Test</h1>
+    <div>
+      <ul><v-btn @click="toastTest1">INFO</v-btn></ul>
+      <ul><v-btn @click="toastTest2">SUCCESS</v-btn></ul>
+      <ul><v-btn @click="toastTest3">ERROR</v-btn></ul>
+      <ul><v-btn @click="toastTest4">WARNING</v-btn></ul>
+      <ul><v-btn @click="toastTest5">전역 error</v-btn></ul>
+    </div>
+  </div>
 </template>
 
 <script>
   export default {
-    name: 'Home'   
+    name: 'Home',
+    methods :{
+      toastTest1(){
+        this.$toast.info('hello Info');
+      },
+      toastTest2(){
+        this.$toast.success('hello Info');
+      },
+      toastTest3(){
+        this.$toast.error('hello Info');
+      },
+      toastTest4(){
+        this.$toast.warning('hello Info');
+      },
+      toastTest5(){
+        throw new Error("전역 에러!!")
+      }
+
+    }
   }
 </script>
