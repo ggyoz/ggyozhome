@@ -32,7 +32,7 @@
     "fonts/Roboto-Light.0e01b6cd.woff2",
     "fonts/Roboto-Thin.f7a95c9c.woff2",
     "js/manifest.220e56b6.js",
-    "js/main.ba8a3cbc.js",
+    "js/main.8f1bc54f.js",
     "favicon.ico",
     "js/about.ee88b8e2.js"
   ],
@@ -40,7 +40,7 @@
     "js/manifest.220e56b6.js",
     "css/vendor.72337695.css",
     "js/vendor.1e06ce8e.js",
-    "js/main.ba8a3cbc.js"
+    "js/main.8f1bc54f.js"
   ],
   "async": [
     "js/about.ee88b8e2.js"
