@@ -32,16 +32,15 @@
     "fonts/Roboto-Light.0e01b6cd.woff2",
     "fonts/Roboto-Thin.f7a95c9c.woff2",
     "js/manifest.220e56b6.js",
-    "js/main.151e38ee.js",
+    "js/main.ba8a3cbc.js",
     "favicon.ico",
-    "js/about.ee88b8e2.js",
-    "img/logo.4d6033c9.svg"
+    "js/about.ee88b8e2.js"
   ],
   "initial": [
     "js/manifest.220e56b6.js",
     "css/vendor.72337695.css",
     "js/vendor.1e06ce8e.js",
-    "js/main.151e38ee.js"
+    "js/main.ba8a3cbc.js"
   ],
   "async": [
     "js/about.ee88b8e2.js"
@@ -1312,9 +1311,6 @@
     "2a826062": [
       3,
       0
-    ],
-    "1fbc021a": [
-      31
     ],
     "108e12f0": [
       3,
