@@ -40,6 +40,9 @@
     <v-main>
       <router-view/>
     </v-main>
+    <!-- progressBar -->
+    <vue-progress-bar></vue-progress-bar>
+    <!-- /progressBar -->
   </v-app>
 </template>
 

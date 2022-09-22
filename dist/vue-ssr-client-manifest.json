@@ -1,7 +1,7 @@
 {
   "publicPath": "/",
   "all": [
-    "js/vendor.986e2636.js",
+    "js/vendor.1b37b69f.js",
     "fonts/materialdesignicons-webfont.5d875350.eot",
     "fonts/materialdesignicons-webfont.21f691f0.ttf",
     "css/vendor.16ee90fc.css",
@@ -32,15 +32,15 @@
     "fonts/Roboto-Light.0e01b6cd.woff2",
     "fonts/Roboto-Thin.f7a95c9c.woff2",
     "js/manifest.220e56b6.js",
-    "js/main.8409dc1a.js",
+    "js/main.c1aa3f47.js",
     "favicon.ico",
     "js/about.ee88b8e2.js"
   ],
   "initial": [
     "js/manifest.220e56b6.js",
     "css/vendor.16ee90fc.css",
-    "js/vendor.986e2636.js",
-    "js/main.8409dc1a.js"
+    "js/vendor.1b37b69f.js",
+    "js/main.c1aa3f47.js"
   ],
   "async": [
     "js/about.ee88b8e2.js"
@@ -122,6 +122,10 @@
       0
     ],
     "4ae69320": [
+      3,
+      0
+    ],
+    "357b54cb": [
       3,
       0
     ],
