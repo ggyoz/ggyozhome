@@ -28,6 +28,19 @@
 <script>
   export default {    
     name: "Home",
+    data(){
+        return {
+            title : "My App",
+        }
+    },
+    title(){
+        //return "My HomePage";
+        return this.title;
+    },
+    // 타이틀 변경하는 방법
+    // mounted(){
+    //     document.title = "myHome"
+    // },
     methods: {
         toastTest1() {
             this.$toast.info("hello Info");
