@@ -8,17 +8,7 @@
 import notifyComponent from './notifyComponent.vue'
 export default {
     components: { notifyComponent },
-    name: "notifyInterface",
-    data(){
-        return{
-            options:{
-                width:400,
-                icon:"",
-                iconColor:"orange",
-                type:"alert"
-            }
-        }
-    },
+    name: "notifyInterface",    
     methods : {        
         alert(content, title="", option={}){
             return this.$refs.notify.show(content, title, {
