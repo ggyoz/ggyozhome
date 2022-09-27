@@ -19,14 +19,14 @@
     <h1>Notify Test</h1>
     <div>
       <v-btn @click="notifyTest1">Alert</v-btn>
+      <v-btn @click="notifyTest2">Confirm</v-btn>
+      <v-btn @click="notifyTest3">Prompt</v-btn>
     </div>
-    <NotifyComponent/>
   </div>
 </template>
 
 <script>
-import NotifyComponent from '@/plugins-client/notifyPlugin/notifyComponent.vue';
-  export default {
+  export default {    
     name: "Home",
     methods: {
         toastTest1() {
@@ -53,10 +53,19 @@ import NotifyComponent from '@/plugins-client/notifyPlugin/notifyComponent.vue';
         barTest3() {
             this.$Progress.fail();
         },
-        notifyTest1() {
-            alert("message");
+        async notifyTest1() {
+            const res = await this.$notify.alert("테스트 내용입니다." ,"안내", {icon:"mdi-alert"});
+            console.log(res);
+        },
+        async notifyTest2() {
+            const res = await this.$notify.confirm("테스트 내용입니다." ,"");
+            console.log(res);
+        },
+        async notifyTest3() {
+            const res = await this.$notify.prompt("테스트 내용입니다." ,"프롬프트", {width:200});
+            console.log(res);
         }
-    },
-    components: { NotifyComponent }
+    }
+    
 }
 </script>
