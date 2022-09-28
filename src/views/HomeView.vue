@@ -34,28 +34,29 @@
         }
     },
     title(){
-        console.log('Home.vue * title-mixin')
+        //console.log('Home.vue * title-mixin')
         //return "My HomePage";
         return this.title;
-    },beforeCreate(){
-    console.log('Home.vue * beforeCreate');
     },
-    created(){
-        console.log('Home.vue * created', this.$ssrContext);
-    },
-    beforeMount(){
-        console.log('Home.vue * beforeMount');
-    },
-    mounted(){
-        console.log('Home.vue * mounted');
-    },
-    serverPrefetch(){
-        console.log('Home.vue * serverPrefetch');
-        return new Promise((resolve, reject) => {
-        console.log('Home.vue * serverPrefetch Promise');
-        resolve();
-        });
-    },
+    // beforeCreate(){
+    // console.log('Home.vue * beforeCreate');
+    // },
+    // created(){
+    //     console.log('Home.vue * created', this.$ssrContext);
+    // },
+    // beforeMount(){
+    //     console.log('Home.vue * beforeMount');
+    // },
+    // mounted(){
+    //     console.log('Home.vue * mounted');
+    // },
+    // serverPrefetch(){
+    //     console.log('Home.vue * serverPrefetch');
+    //     return new Promise((resolve, reject) => {
+    //     console.log('Home.vue * serverPrefetch Promise');
+    //     resolve();
+    //     });
+    // },
     // 타이틀 변경하는 방법
     // mounted(){
     //     document.title = "myHome"

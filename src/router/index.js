@@ -27,14 +27,14 @@ export function createRouter() {
 		routes
 	});
 
-  router.beforeEach((to, from, next) => {
-    console.log('router.js * beforeEach');
-    next(); // next를 꼭 해줘야 다음으로 진행됨.
-  })
+  // router.beforeEach((to, from, next) => {
+  //   console.log('router.js * beforeEach');
+  //   next(); // next를 꼭 해줘야 다음으로 진행됨.
+  // })
 
-	router.afterEach((to, from)=> {
-		console.log('router.js * afterEach')
-	})
+	// router.afterEach((to, from)=> {
+	// 	console.log('router.js * afterEach')
+	// })
 
 	return router;
 }

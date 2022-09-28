@@ -15,7 +15,7 @@ Vue.config.productionTip = false
 
 export function createApp(ctx) {
 
-	console.log('main.js * createApp');
+	//console.log('main.js * createApp');
 
 	const router = createRouter();
 	const store = createStore();
