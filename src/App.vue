@@ -36,10 +36,10 @@ export default {
     return {
       drawer : false,
     }
-  },
-  computed:{
+  },  
+  computed : {
     drawerWidth(){
-      return this.$vuetify.breakpoint.xs ? '100%' : '360';
+      return this.$vuetify.breakpoint.xs ? '100%' : '300';
     }    
   },
   methods :{
