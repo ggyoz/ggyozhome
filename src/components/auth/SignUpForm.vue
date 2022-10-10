@@ -50,7 +50,7 @@ export default {
       this.$refs.form.validate();
 			await this.$nextTick();
 			if(!this.valid) return;
-      if(!this.$refs.id.validate()) return;
+      if(!this.$refs.id.validate()) return; 
 			console.log(this.form);
     },
   },
