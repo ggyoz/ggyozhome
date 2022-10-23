@@ -54,7 +54,7 @@ export default {
   },
   mounted() {
     // console.log(this.$attrs);
-    console.log(this.$refs.field);
+    //console.log(this.$refs.field);
   },
   methods: {
     onInput(val) {
@@ -69,7 +69,7 @@ export default {
       this.errMsg = "";
       this.successMsg = "";
       const data = await this.cbCheck(this.value);
-      console.log(data)
+
       if(data.cnt == 0){
         this.successMsg = `사용 가능한 ${this.$attrs.label} 입니다.` ;
         this.isCheck = true;
@@ -77,6 +77,7 @@ export default {
         this.errMsg = `중복된 ${this.$attrs.label} 입니다.` ;
         this.isCheck = false;
       }
+
       this.loading = false;
     },
     validate(){
